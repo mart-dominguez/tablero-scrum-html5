@@ -1,0 +1,94 @@
+@CHARSET "ISO-8859-1";
+
+/* importo una fuente de google para el titulo */
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100);
+
+header{
+	width: 100%;
+	/* FONDO CON GRADIENTE */
+	background: #feccb1; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #feccb1 0%, #f17432 80%, #fb955e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#feccb1), color-stop(80%,#f17432), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #feccb1 0%,#f17432 80%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #feccb1 0%,#f17432 80%,#fb955e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #feccb1 0%,#f17432 80%,#fb955e 100%); /* IE10+ */
+	background: linear-gradient(415deg,  #feccb1 0%,#f17432 80%,#fb955e 100%); /* W3C */
+	/* borde redondead */
+	border: 2px solid;
+	border-color: #FF3300;
+    border-radius: 25px;
+}
+
+header > h1{
+	color: #FF3300;
+	font-size: 30px;	
+	font-family: 'Francois One', sans-serif;
+	/* BORDE DE LA LETRA ROJO*/
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+	padding-left: 20px;
+}
+
+section { 
+	float:left;
+	clear:both;	
+	width: 100%;	
+}
+
+section > article{
+	margin: 15px 0px 15px 1px;
+	border: 1px solid #FF0000;
+	width: 20%;	
+	float: left;
+	height: 450px;
+}
+
+footer{
+	background-color: #000000;
+	color: #F2F2F2;
+	font-size: 11px;
+	font-family: 'Dosis', sans-serif;
+	clear:both;
+	text-align: right;
+}
+
+
+
+h2 {
+	color:#0000FF;	
+	font-size: 13px;
+	font-weight:bold;	
+	font-family: 'Francois One', sans-serif;
+	background-color: #F4F4F4;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 1px solid red;
+}
+
+
+#planificados{
+	background-color: #FF0000;
+}
+#encurso{
+	background-color: #9999FF;
+}
+#terminados{
+	background-color: #DBFF70;
+}
+#extra{
+	background-color: #FF5C33;
+}
+
+#burndown{
+	height: 125px;
+	background-color: #F2F2F2;
+	margin: 4px 1px 2px 1px;
+}
+
+#noPlanficado{
+	height: 315px;
+	margin: 4px 1px 2px 1px;
+	background-color: #E6E6FA;
+}
